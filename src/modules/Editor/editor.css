@@ -1,0 +1,129 @@
+.editor-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: opacity 1s;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  box-sizing: border-box;
+}
+
+.editor-textbox,
+.editor-inner-wrapper {
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+}
+
+.editor-wrapper-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90%;
+  width: 35%;
+}
+
+.editor-textbox {
+  width: 100%;
+  height: 43%;
+  overflow-y: auto;
+}
+
+.editor-textbox-text {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 20px;
+}
+
+.editor-textbox-terminal {
+  position: relative;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.editor-terminal-button,
+.editor-button {
+  display: block;
+  transition: opacity 1s;
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+  width: 580px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  border: 0;
+}
+
+.editor-terminal-button {
+  position: sticky;
+  top: 0px;
+  width: auto;
+  padding: 5px 10px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.editor-terminal-button-icon {
+  margin: 0 10px 0 5px;
+  width: 16px;
+  height: 16px;
+}
+
+.editor-button-cs {
+  display: inline;
+  width: 40%;
+}
+
+.editor-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: auto;
+  margin-top: 20px;
+  transition: opacity 1s;
+}
+
+.editor-button-wrapper-cs {
+  justify-content: space-evenly;
+}
+
+.editor-shindows {
+  width: 640;
+  height: 360;
+}
+
+.editor-input {
+  font-size: 24px;
+  color: white;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.editor-radio {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 24px;
+  color: white;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.editor-radio > input {
+  margin-right: 10px;
+}

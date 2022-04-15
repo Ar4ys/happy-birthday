@@ -1,0 +1,56 @@
+.assassins-wrapper {
+  transition: opacity 1s;
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+  width: 640px;
+  cursor: pointer;
+  color: white;
+}
+
+.assassins-textbox-text {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 20px;
+}
+
+.assassins-button {
+  display: block;
+  transition: opacity 1s;
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  border: 0;
+}
+
+.assassins-wrapper-iq {
+  cursor: unset;
+}
+
+.assassins-button-iq {
+  display: inline;
+  width: 40%;
+}
+
+.assassins-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10%;
+  width: 580px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: auto;
+}
+
+.assassins-shindows {
+  width: 640;
+  height: 360;
+}

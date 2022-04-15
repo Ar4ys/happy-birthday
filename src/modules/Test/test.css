@@ -1,0 +1,81 @@
+.test-wrapper {
+  transition: opacity 1s;
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+  width: 640px;
+  color: white;
+  margin-top: 20px;
+}
+
+.test-textbox-text {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 20px;
+}
+
+.test-button {
+  display: block;
+  transition: opacity 1s;
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+  width: 580px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  border: 0;
+}
+
+.test-button-cs {
+  display: inline;
+  width: 40%;
+}
+
+.test-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  cursor: auto;
+  margin-top: 20px;
+  transition: opacity 1s;
+}
+
+.test-button-wrapper-cs {
+  justify-content: space-evenly;
+}
+
+.test-shindows {
+  width: 640;
+  height: 360;
+}
+
+.test-input {
+  font-size: 24px;
+  color: white;
+  width: 100%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.test-radio {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 24px;
+  color: white;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.test-radio > input {
+  margin-right: 10px;
+}

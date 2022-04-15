@@ -1,0 +1,41 @@
+.genshin-wrapper {
+  /* position: relative; */
+  transition: opacity 1s;
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+  width: 640px;
+  cursor: pointer;
+  color: white;
+}
+
+.genshin-textbox-text {
+  font-size: 24px;
+  text-align: left;
+  margin: 10px 20px;
+}
+
+.genshin-button {
+  position: absolute;
+  bottom: 10%;
+  display: block;
+  transition: opacity 1s;
+  padding: 20px;
+  border-radius: 3px;
+  background: rgba(17,17,17,0.75);
+  box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+  width: 580px;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  border: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.genshin-misha {
+  width: 640;
+  height: 360;
+}

@@ -1,0 +1,66 @@
+.sans-wrapper {
+  font-family: DeterminationSans;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+}
+
+.sans-textbox {
+  font-family: DeterminationSans;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  border: 5px solid white;
+  align-items: flex-start;
+  width: 580px;
+  cursor: pointer;
+}
+
+.sans-textbox-icon {
+  padding: 20px;
+}
+
+.sans-textbox-text {
+  text-align: left;
+  font-family: DeterminationSans;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  margin: 10px 20px;
+}
+
+.sans-button {
+  position: relative;
+  display: block;
+  text-align: left;
+  font-family: DeterminationSans;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  background: none;
+  border-radius: 0;
+  border: 3px solid white;
+  cursor: pointer;
+  padding: 10px;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 580px;
+  transition: opacity 1s;
+}
+
+.sans-button-fuck {
+  position: absolute;
+  top: 500px;
+}
+
+.sans-button-continue {
+  position: absolute;
+  bottom: -150%;
+}
+
+.sans-iframe {
+  border: none;
+}
